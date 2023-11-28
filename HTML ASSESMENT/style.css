@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: pink;
+}
+
+.container {
+    margin: 20px 0px;
+}
+
+
+.padding-p {
+    padding: 0px 15px;
+}
+
+header .navbar {
+    display: flex;
+}
+
+header .logo img {
+    height: 50px;
+    width: 160px;
+    flex: 0;
+}
+
+header .navbar .nav .dropdown {
+    display: flex;
+    flex: 2;
+    gap: 25px;
+    padding-left: 550px;
+    /* justify-content: flex-end; */
+    /* text-align: center; */
+
+}
+
+header .navbar .nav .dropdown {
+    color: blueviolet;
+    font-size: 18px;
+}
+
+header .navbar .nav .dropdown div {
+    padding: 10px;
+
+}
+
+header .navbar .nav .dropdown .show {
+    position: relative;
+}
+
+header .navbar .nav .dropdown i {
+    font-size: 15px;
+    top: 5px;
+
+}
+
+header .navbar .nav .dropdown .inner {
+    position: absolute;
+    width: 130px;
+    background-color: blueviolet;
+    color: white;
+    top: 37px;
+    display: none;
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+
+header .navbar .nav .dropdown .show:hover .inner {
+    display: block;
+}
+
+header .navbar .nav .dropdown .showmenu {
+    position: relative;
+}
+
+header .navbar .nav .dropdown span {
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+header .navbar .nav .dropdown .innermenu {
+    position: absolute;
+    width: 130px;
+    background-color: blueviolet;
+    color: white;
+    top: 10px;
+    left: 119px;
+    display: none;
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+
+header .navbar .nav .dropdown .showmenu:hover .innermenu {
+    display: block;
+}
+
+
+
+header .navbar .btn button {
+    height: 30px;
+    width: 65px;
+    margin-left: 25px;
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+}
